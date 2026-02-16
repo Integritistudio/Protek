@@ -1,7 +1,7 @@
 
-const BrandLogo = ({ logoImage = "/images/logo/Logo SVG-01.svg", className = "light-version-logo" }) => {
+const BrandLogo = ({ logoImage = "/images/logo/logo-dark.svg", className = "light-version-logo", style = {} }) => {
     return (
-        <img src={logoImage} alt="" className={className} />
+        <img src={logoImage} alt="" className={className} style={style} />
     );
 };
 

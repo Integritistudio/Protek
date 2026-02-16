@@ -6,7 +6,6 @@ import TeamSection from "~/components/Section/AboutUs/TeamSection";
 import TestimonialSection from "~/components/Section/AboutUs/TestimonialSection/TestimonialSection";
 import ContactSection from "~/components/Section/AboutUs/ContactSection";
 import CtaSection from "~/components/Section/Common/Cta/CtaSection";
-import FooterOneSection from "~/components/Section/Common/FooterOne/FooterOneSection";
 import HeaderTwo from "~/components/Section/Common/Header/HeaderTwo";
 import ListSection from "~/components/Section/AboutUs/ListSection";
 import ChooseUsSection from "~/components/Section/Home-3/ChooseUsSection";
@@ -28,7 +27,6 @@ const Aboutpage = () => {
       <ChooseUsSection />
       <ContactSection />
       {/* <CtaSection/> */}
-      <FooterOneSection className="tekup-footer-section dark-bg" />
     </>
   );
 };

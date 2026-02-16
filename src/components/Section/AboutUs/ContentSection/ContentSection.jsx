@@ -7,7 +7,7 @@ const ContentSection = () => {
         <div className="row">
           <div className="col-lg-6 order-lg-2">
             <div className="tekup-thumb ml-30">
-              <img src="/images/v3/thumb2.png" alt="" />
+              <img src="/images/v3/content.webp" alt="" />
               <div className="tekup-thumb-card right">
                 <img src="/images/v3/project-done.png" alt="" />
               </div>

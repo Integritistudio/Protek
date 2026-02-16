@@ -175,6 +175,12 @@
   margin-right: auto;
 }
 
+.tekup-service-thumb > img {
+  width: 100% !important;
+  aspect-ratio: 612 / 760 !important;
+  object-fit: cover !important;
+}
+
 .slick-dots li button:before {
   font-size: 10px !important;
 }

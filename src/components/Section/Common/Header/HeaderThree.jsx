@@ -126,7 +126,7 @@ const HeaderThree = () => {
     };
   }, [isActive]);
   return (
-    <header className={`site-header tekup-header-section site-header--menu-right ${scrollClassName}`} >
+    <header className={`site-header tekup-header-section ${scrollClassName}`} >
       <div className="bg-light1">
         <div className="container-fuild">
           <div className="tekup-header-top border_bottom">
@@ -151,7 +151,7 @@ const HeaderThree = () => {
           <nav className="navbar site-navbar">
             <div className="brand-logo">
               <Link href="/">
-                <BrandLogo logoImage="/images/logo/logo-dark.svg" className="light-version-logo" />
+                <BrandLogo logoImage="/images/logo/Logo SVG-01.svg" className="light-version-logo" style={{ width: '50px', height: '50px' }} />
               </Link>
             </div>
             <div className="menu-block-wrapper">
@@ -180,46 +180,8 @@ const HeaderThree = () => {
                   <li className="nav-item">
                     <Link href="about-us" className="nav-link-item">About Us</Link>
                   </li>
-                  <li className="nav-item nav-item-has-children">
-                    <Link href="#" className="nav-link-item drop-trigger">Our Services <i className="ri-arrow-down-s-line"></i></Link>
-                    <ul className="sub-menu" id="submenu-2">
-                      <li className="sub-menu--item">
-                        <Link href="about-us">
-                          <span className="menu-item-text">IT & Telecom Equipment</span>
-                        </Link>
-                      </li>
-                      <li className="sub-menu--item">
-                        <Link href="pricing">
-                          <span className="menu-item-text">Network Setup & Maintenance</span>
-                        </Link>
-                      </li>
-                      <li className="sub-menu--item">
-                        <Link href="pricing">
-                          <span className="menu-item-text">Office Printing & Stationery</span>
-                        </Link>
-                      </li>
-                      {/* <li className="sub-menu--item nav-item-has-children">
-                        <Link href="#" data-menu-get="h3" className="drop-trigger">blog <i className="ri-arrow-down-s-line"></i></Link>
-                        <ul className="sub-menu shape-none" id="submenu-3">
-                          <li className="sub-menu--item">
-                            <Link href="blog">
-                              <span className="menu-item-text">Blog</span>
-                            </Link>
-                          </li>
-                          <li className="sub-menu--item">
-                            <Link href="blog-grid">
-                              <span className="menu-item-text">Blog grid</span>
-                            </Link>
-                          </li>
-                          <li className="sub-menu--item">
-                            <Link href="single-blog">
-                              <span className="menu-item-text">blog details</span>
-                            </Link>
-                          </li>
-                        </ul>
-                      </li> */}
-
-                    </ul>
+                  <li className="nav-item">
+                    <Link href="service" className="nav-link-item">Our Services</Link>
                   </li>
                   {/* <li className="nav-item nav-item-has-children">
                     <Link href="#" className="nav-link-item drop-trigger">Blog <i className="ri-arrow-down-s-line"></i></Link>

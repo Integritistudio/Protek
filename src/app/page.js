@@ -9,8 +9,6 @@ import RecentProjectsSection from '~/components/Section/Home-3/RecentProjectsSec
 import SuccessRatesSection from '~/components/Section/Home-3/SuccessRatesSection';
 import ServiceSlideSection from '~/components/Section/Home-3/ServiceSlideSection';
 import HeaderThree from '~/components/Section/Common/Header/HeaderThree';
-import FooterThreeSection from '~/components/Section/Common/FooterThree/FooterThreeSection';
-
 const HomeThree = () => {
     return (
         <div>
@@ -23,7 +21,6 @@ const HomeThree = () => {
             {/* <BrandSection /> */}
             <LetsBuildSection />
             {/* <RecentBlogSection /> */}
-            <FooterThreeSection/>
         </div>
     );
 };

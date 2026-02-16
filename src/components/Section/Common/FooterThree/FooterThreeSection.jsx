@@ -12,7 +12,7 @@ const FooterThreeSection = () => {
                         <div className="col-xl-3 col-lg-12">
                             <div className="tekup-footer-textarea">
                                 <Link href="/">
-                                    <BrandLogo logoImage="/images/logo/logo-dark.svg" />
+                                    <BrandLogo logoImage="/images/logo/Logo SVG-01.svg" className="light-version-logo" style={{ width: '50px', height: '50px' }} />
                                 </Link>
                                 <p>Expert IT and Telecom solutions backed by 15 years of excellence and a commitment to quality. From hardware supply to network setup, we power the infrastructure of your business.</p>
                                 <div className="tekup-social-icon-box style-three">

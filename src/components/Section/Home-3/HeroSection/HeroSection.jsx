@@ -20,7 +20,7 @@ const HeroSection = () => {
                     </div>
                     <div className="col-lg-6">
                         <div className="tekup-hero-thumb">
-                            <img src="/images/v3/hero-thumb.png" alt="" />
+                            <img src="/images/hero/hero-img.avif" alt="" />
                             <div className="tekup-client-rating">
                                 <img src="/images/v3/rating.png" alt="" />
                             </div>

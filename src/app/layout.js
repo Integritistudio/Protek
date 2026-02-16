@@ -13,6 +13,8 @@ import React, { useEffect, useState } from "react";
 import { Metadata } from "~/components/Section/Common/Metadata/Metadata";
 import { usePathname } from "next/navigation";
 import Loading from "~/components/Section/Common/Loading/Loading";
+import FooterThreeSection from '~/components/Section/Common/FooterThree/FooterThreeSection';
+
 
 
 
@@ -51,7 +53,13 @@ export default function RootLayout({ children }) {
         )}
       </head>
       <body >   <Loading isLoading={isLoading} />
-        {!isLoading && children}</body>
+        {!isLoading && (
+          <>
+            {children}
+            <FooterThreeSection />
+          </>
+        )}
+      </body>
     </html>
   );
 }

@@ -7,7 +7,7 @@ const ItSolutionSection = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="tekup-thumb mr-30">
-                            <img src="/images/v3/thumb1.png" alt="" />
+                            <img src="/images/v3/thumb1.webp" alt="" />
                             <div className="tekup-thumb-card">
                                 <img src="/images/v3/Satisfaction2.png" alt="" />
                             </div>
