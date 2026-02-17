@@ -2,6 +2,7 @@ import AboutSection from "~/components/Section/AboutUs/AboutSection";
 import FactSection from "~/components/Section/Common/Fact/FactSection";
 import PageHeader from "~/components/Section/Common/PageHeader";
 import ContentSection from "~/components/Section/AboutUs/ContentSection";
+import ContentSection2 from "~/components/Section/AboutUs/ContentSection2";
 import TeamSection from "~/components/Section/AboutUs/TeamSection";
 import TestimonialSection from "~/components/Section/AboutUs/TestimonialSection/TestimonialSection";
 import ContactSection from "~/components/Section/AboutUs/ContactSection";
@@ -10,7 +11,7 @@ import HeaderTwo from "~/components/Section/Common/Header/HeaderTwo";
 import ListSection from "~/components/Section/AboutUs/ListSection";
 import ChooseUsSection from "~/components/Section/Home-3/ChooseUsSection";
 import FeatureListSection from "~/components/Section/AboutUs/FeatureListSection";
-
+import ServiceSlideSection from "~/components/Section/Home-1/ServiceSlideSection";
 
 const Aboutpage = () => {
   return (
@@ -19,10 +20,12 @@ const Aboutpage = () => {
       <PageHeader title="About Us" />
       <AboutSection />
       <ContentSection />
+      {/* <ContentSection2 /> */}
       <FactSection />
       <ListSection />
       {/* <TeamSection/> */}
-      <FeatureListSection />
+      {/* <FeatureListSection /> */}
+      {/* <ServiceSlideSection /> */}
       <TestimonialSection />
       <ChooseUsSection />
       <ContactSection />

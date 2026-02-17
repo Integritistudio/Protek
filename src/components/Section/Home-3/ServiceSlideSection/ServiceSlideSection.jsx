@@ -2,8 +2,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
-
 import services from '~/db/homeThreeServices.json'
 import ServiceCardThree from "~/components/Ui/Cards/ServiceCardThree";
 
@@ -18,7 +16,6 @@ const WeDealSection = () => {
         autoplay: true,
         autoplaySpeed: 3000,
         responsive: [
-
             {
                 breakpoint: 1397,
                 settings: {
@@ -48,7 +45,7 @@ const WeDealSection = () => {
                 </div>
                 <Slider  {...settings} >
                     {
-                        [...services, ...services]?.map((item, idx) => <ServiceCardThree item={item} key={idx}></ServiceCardThree>)
+                        [...services]?.map((item, idx) => <ServiceCardThree item={item} key={idx}></ServiceCardThree>)
                     }
                 </Slider>
             </div>

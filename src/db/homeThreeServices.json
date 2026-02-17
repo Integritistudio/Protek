@@ -1,23 +1,51 @@
 [
-    {
-        "image": "/images/v3/icon1.webp",
-        "icon": "/images/v3/icon1.png",
-        "title": "Data Center & Telecommunication",
-        "description": "Expert data center layout design, equipment provisioning, commissioning, and specialized maintenance.",
-        "link": "single-service"
-    },
-    {
-        "image": "/images/v3/icon2.webp",
-        "icon": "/images/v3/icon2.png",
-        "title": "Logistics & Supply Chain (AI-Powered)",
-        "description": "Modernizing the warehouse through Intelligence. Upgrade management systems with advanced barcode scanning and AI.",
-        "link": "single-service"
-    },
-    {
-        "image": "/images/v3/icon3.webp",
-        "icon": "/images/v3/icon3.png",
-        "title": "Beauty & E-Commerce Incubation",
-        "description": "Expert consultation in formula development, manufacturing partnerships, and full-stack E-commerce strategies.",
-        "link": "single-service"
-    }
+  {
+    "image": "/images/v3/icon1.webp",
+    "icon": "/images/v3/monitorcloud.png",
+    "title": "Infrastructure Design & Build",
+    "description": "Expert data center layout design, equipment provisioning, and commissioning.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/connectivity.jpeg",
+    "icon": "/images/v3/radiotower.png",
+    "title": "Connectivity Solutions",
+    "description": "Fiber optic backhaul connectivity and high-speed network architecture.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/smartwarehouse.jpeg",
+    "icon": "/images/v3/warehouse.png",
+    "title": "Smart Warehousing",
+    "description": "Upgrade your management systems with advanced barcode scanning integration and SKU rationalization.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/hardware.avif",
+    "icon": "/images/v3/blocks.png",
+    "title": "Hardware Integration",
+    "description": "High-speed network setups for massive facilities and industrial-grade barcode scanning ecosystems.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/Ai.jpg",
+    "icon": "/images/v3/bot.png",
+    "title": "AI Optimization",
+    "description": "We leverage Artificial Intelligence to predict demand, optimize inventory flow, and remove bottlenecks in your supply chain",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/productdevelopment.avif",
+    "icon": "/images/v3/icon2.png",
+    "title": "Product Development",
+    "description": "Expert consultation in formula development and brand creation for the beauty industry.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/digital.jpeg",
+    "icon": "/images/v3/icon3.png",
+    "title": "Digital Commerce",
+    "description": "Full-stack E-commerce development and Amazon launch strategies.",
+    "link": "single-service"
+  }
 ]

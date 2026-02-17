@@ -1,11 +1,11 @@
 "use client"
 
 import Link from "next/link";
-import { Target, Brain, ShieldCheck, Maximize } from "lucide-react";
+import { Locate, LocateFixed, Activity, Cpu, Brain, ShieldCheck, Scaling } from "lucide-react";
 
 const ChooseUsSection = ({ className }) => {
   const iconColor = "#916935";
-  const iconSize = 40;
+  const iconSize = 60;
 
   return (
     <div className={className}>
@@ -15,7 +15,7 @@ const ChooseUsSection = ({ className }) => {
           <div className="col-xl-3 col-md-6">
             <div className="tekup-iconbox-wrap4">
               <div className="tekup-iconbox-icon4">
-                <Target color={iconColor} size={iconSize} strokeWidth={1.5} />
+                <Cpu color={iconColor} size={iconSize} strokeWidth={1.5} />
               </div>
               <div className="tekup-iconbox-data4">
                 <h4>Precision</h4>
@@ -54,7 +54,7 @@ const ChooseUsSection = ({ className }) => {
           <div className="col-xl-3 col-md-6">
             <div className="tekup-iconbox-wrap4">
               <div className="tekup-iconbox-icon4">
-                <Maximize color={iconColor} size={iconSize} strokeWidth={1.5} />
+                <Activity color={iconColor} size={iconSize} strokeWidth={1.5} />
               </div>
               <div className="tekup-iconbox-data4">
                 <h4>Scalability</h4>

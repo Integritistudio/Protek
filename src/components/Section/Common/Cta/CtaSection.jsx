@@ -2,9 +2,13 @@
 
 import Link from "next/link";
 
-const CtaSection = () => {
+const CtaSection = ({
+  title,
+  bgImage = "/images/breadcrumb/ServicePageWorkTogather.jpg",
+  className = ""
+}) => {
   return (
-    <div className="section bg-cover" style={{ backgroundImage: "url(/images/v1/cta-bg.png)" }}>
+    <div className={`tekup-breadcrumb bg-cover section ${className}`} style={{ backgroundImage: `url(${bgImage})` }}>
       <div className="container">
         <div className="tekup-cta-wrap">
           <div className="tekup-cta-content center">

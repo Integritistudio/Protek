@@ -3071,12 +3071,12 @@ header.tekup-header-section.header-seven.sticky-menu {
   height: 100%;
   transition: all 0.4s;
   position: absolute;
-  background: linear-gradient(180deg, rgba(13, 14, 29, 0) 0%, #0D0E1D 100%);
+  background: linear-gradient(180deg, rgba(13, 14, 29, 0) 0%, #916935 100%);
 }
 
 .tekup-blog-thumb2:after {
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #0119FF 100%);
+  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #916935 100%);
 }
 
 .tekup-blog-thumb2:hover::before,
@@ -4443,7 +4443,7 @@ h1.post__title {
   transition: all 0.4s;
   position: absolute;
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 23.74%, #0119FF 100%);
+  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 23.74%, #916935 100%);
 }
 
 .tekup-team-data {
@@ -4760,12 +4760,12 @@ h1.post__title {
   height: 100%;
   transition: all 0.4s;
   position: absolute;
-  background: linear-gradient(180deg, rgba(13, 14, 29, 0) 0%, #0D0E1D 100%);
+  background: linear-gradient(180deg, #916935 0%, #916935 100%);
 }
 
 .tekup-service-thumb:after {
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #0119FF 100%);
+  background: linear-gradient(180deg, #916935 0%, #916935 100%);
 }
 
 .tekup-service-thumb:hover:after {
@@ -5663,7 +5663,7 @@ h1.post__title {
   transition: all 0.4s;
   position: absolute;
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #0119FF 100%);
+  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #916935 100%);
 }
 
 .tekup-portfolio-thumb:hover .tekup-portfolio-data {
@@ -5737,7 +5737,7 @@ h1.post__title {
   transition: all 0.4s;
   position: absolute;
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #0119FF 100%);
+  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #916935 100%);
 }
 
 .tekup-portfolio-thumb2:hover .tekup-portfolio-data2 {
@@ -5894,7 +5894,7 @@ h1.post__title {
   transition: all 0.4s;
   position: absolute;
   opacity: 0;
-  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #0119FF 100%);
+  background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0%, #916935 100%);
 }
 
 .tekup-portfolio-thumb4::after {
@@ -5905,7 +5905,7 @@ h1.post__title {
   height: 100%;
   transition: all 0.4s;
   position: absolute;
-  background: linear-gradient(180deg, rgba(13, 14, 29, 0) 0%, #0D0E1D 100%);
+  background: linear-gradient(180deg, rgba(13, 14, 29, 0) 0%, #916935 100%);
 }
 
 .tekup-portfolio-thumb4:hover::before {
@@ -6830,7 +6830,7 @@ input.house-number {
 span.total-amount {
   font-size: 26px;
   font-weight: 600;
-  color: #0119FF;
+  color: #916935;
 }
 
 .tekup-update-cart.blue-btn.w-full {

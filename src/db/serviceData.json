@@ -1,26 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Web Development",
+    "title": "Data Center & Telecom",
     "icon": "/images/v2/icon3.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "description": "Precision, Reliability, and End-to-End Execution."
   },
   {
     "id": 2,
-    "title": "App Development",
+    "title": "Logistics & Supply Chain (AI-Powered)",
     "icon": "/images/v2/icon4.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "description": "Modernizing the warehouse through Intelligence."
   },
   {
     "id": 3,
-    "title": "IT Management",
+    "title": "Beauty & E-Commerce Incubation",
     "icon": "/images/v2/icon7.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
-  },
-  {
-    "id": 4,
-    "title": "Digital Marketing",
-    "icon": "/images/v2/icon6.png",
-    "description": "We are architects of innovation, trailblazers of technological advancement, and partners in your success"
+    "description": "Taking products from the lab to the digital shelf."
   }
 ]

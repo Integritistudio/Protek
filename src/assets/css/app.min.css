@@ -3045,7 +3045,7 @@ header.tekup-header-section.header-seven.sticky-menu {
 
 .tekup-blog-thumb2:after {
     opacity: 0;
-    background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0, #0119ff 100%)
+    background: linear-gradient(180deg, rgba(1, 25, 255, 0) 0, #916935 100%)
 }
 
 .tekup-blog-thumb2:hover::after,
@@ -6793,7 +6793,7 @@ input.house-number {
 span.total-amount {
     font-size: 26px;
     font-weight: 600;
-    color: #0119ff
+    color: #916935
 }
 
 .tekup-update-cart.blue-btn.w-full {
