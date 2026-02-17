@@ -3,10 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-// Activated FormSubmit token endpoint (recommended for reliable delivery).
-const FORM_SUBMIT_TOKEN = "5826aaabf3f8a2a55a9ed310f9179965";
-const FORM_ENDPOINT = `https://formsubmit.co/ajax/${FORM_SUBMIT_TOKEN}`;
-
 const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [statusMessage, setStatusMessage] = useState("");
@@ -25,33 +21,32 @@ const ContactSection = () => {
     const phone = String(formData.get("phone") || "").trim();
     const message = String(formData.get("message") || "").trim();
 
-    const payload = new FormData();
-    payload.append("Name", name);
-    payload.append("Email", email);
-    payload.append("Message", message);
-    payload.append("Phone", phone);
-    payload.append("_subject", "New Contact Form Submission - Protek Website");
-    payload.append("_captcha", "false");
-    payload.append("_template", "box");
-    payload.append("_replyto", email);
+    const payload = {
+      name,
+      email,
+      phone,
+      message,
+    };
 
     try {
-      const response = await fetch(FORM_ENDPOINT, {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: payload,
+        body: JSON.stringify(payload),
       });
 
       const result = await response.json().catch(() => ({}));
-      const successValue = String(result?.success ?? "").toLowerCase();
-      if (!response.ok || successValue === "false") {
-        throw new Error(String(result?.message || "Failed to send message."));
+      if (!response.ok || result?.ok === false) {
+        throw new Error(
+          String(result?.message || result?.error || "Failed to send message."),
+        );
       }
 
       form.reset();
-      setStatusMessage("Message sent successfully. Please check your inbox.");
+      setStatusMessage("Message sent successfully.");
       setIsError(false);
     } catch (error) {
       const errorText =

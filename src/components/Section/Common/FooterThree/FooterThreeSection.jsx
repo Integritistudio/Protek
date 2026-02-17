@@ -1,9 +1,51 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import { useState } from "react";
 import Link from 'next/link';
 import BrandLogo from "~/components/Ui/BrandLogo/BrandLogo";
 
 const FooterThreeSection = () => {
+    const [newsletterEmail, setNewsletterEmail] = useState("");
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [statusMessage, setStatusMessage] = useState("");
+    const [isError, setIsError] = useState(false);
+
+    const handleNewsletterSubmit = async (event) => {
+        event.preventDefault();
+        setStatusMessage("");
+        setIsError(false);
+        setIsSubmitting(true);
+
+        try {
+            const response = await fetch("/api/newsletter", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                },
+                body: JSON.stringify({ email: newsletterEmail.trim() }),
+            });
+
+            const result = await response.json().catch(() => ({}));
+            if (!response.ok || result?.ok === false) {
+                throw new Error(String(result?.message || "Failed to subscribe."));
+            }
+
+            setStatusMessage("Subscribed successfully.");
+            setNewsletterEmail("");
+            setIsError(false);
+        } catch (error) {
+            const errorText =
+                error instanceof Error
+                    ? error.message
+                    : "Unable to subscribe right now. Please try again.";
+            setStatusMessage(errorText);
+            setIsError(true);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
     return (
         <footer className="tekup-footer-section">
             <div className="container">
@@ -61,12 +103,23 @@ const FooterThreeSection = () => {
                                 <p>Get ready to work together for the better solution for your business</p>
                             </div>
                             <div className="tekup-subscription two">
-                                <form action="#">
-                                    <input type="email" placeholder="Enter your email" />
-                                    <button id="tekup-subscription-btn" type="button">
+                                <form onSubmit={handleNewsletterSubmit}>
+                                    <input
+                                        type="email"
+                                        placeholder="Enter your email"
+                                        value={newsletterEmail}
+                                        onChange={(event) => setNewsletterEmail(event.target.value)}
+                                        required
+                                    />
+                                    <button id="tekup-subscription-btn" type="submit" disabled={isSubmitting}>
                                         <i className="ri-send-plane-fill" />
                                     </button>
                                 </form>
+                                {statusMessage ? (
+                                    <p style={{ marginTop: "10px", color: isError ? "#c62828" : "#2e7d32" }}>
+                                        {statusMessage}
+                                    </p>
+                                ) : null}
                             </div>
                         </div>
                     </div>
