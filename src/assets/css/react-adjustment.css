@@ -745,6 +745,22 @@ body.disable-scroll {
   background-color: rgba(145, 104, 53, 0.24) !important; /* #916835 light */
 }
 
+.service-page-cta-no-overlay .tekup-default-btn.tekup-white-btn,
+.service-page-cta-no-overlay #tekup-default-btn.tekup-white-btn {
+  background-color: #916935 !important;
+  border: 2px solid #916935 !important;
+  color: #ffffff !important;
+}
+
+.service-page-cta-no-overlay .tekup-default-btn.tekup-white-btn:hover,
+.service-page-cta-no-overlay #tekup-default-btn.tekup-white-btn:hover,
+.service-page-cta-no-overlay .tekup-default-btn.tekup-white-btn:focus,
+.service-page-cta-no-overlay #tekup-default-btn.tekup-white-btn:focus {
+  background-color: #6f4f28 !important;
+  border-color: #6f4f28 !important;
+  color: #ffffff !important;
+}
+
 .contact-page-section .contact-page-send-btn:hover {
   background-color: #6f4f28 !important;
 }
@@ -931,4 +947,39 @@ body.disable-scroll {
     margin-left: 6px;
     font-size: 16px;
   }
+}
+
+/* Global button theme */
+.tekup-default-btn,
+#tekup-default-btn,
+button#tekup-main-form-btn,
+button#tekup-notified-btn,
+button#tekup-search-btn,
+input[type="submit"],
+input[type="button"],
+.btn {
+  background-color: #916935 !important;
+  border-color: #916935 !important;
+  color: #ffffff !important;
+}
+
+.tekup-default-btn:hover,
+#tekup-default-btn:hover,
+button#tekup-main-form-btn:hover,
+button#tekup-notified-btn:hover,
+button#tekup-search-btn:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover,
+.tekup-default-btn:focus,
+#tekup-default-btn:focus,
+button#tekup-main-form-btn:focus,
+button#tekup-notified-btn:focus,
+button#tekup-search-btn:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus,
+.btn:focus {
+  background-color: #6f4f28 !important;
+  border-color: #6f4f28 !important;
+  color: #ffffff !important;
 }
