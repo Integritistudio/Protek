@@ -7,14 +7,14 @@
     "link": "single-service"
   },
   {
-    "image": "/images/v3/connectivity.jpeg",
+    "image": "/images/v3/connectivity.avif",
     "icon": "/images/v3/radiotower.png",
     "title": "Connectivity Solutions",
     "description": "Fiber optic backhaul connectivity and high-speed network architecture.",
     "link": "single-service"
   },
   {
-    "image": "/images/v3/smartwarehouse.jpeg",
+    "image": "/images/v3/smartwarehouse.avif",
     "icon": "/images/v3/warehouse.png",
     "title": "Smart Warehousing",
     "description": "Upgrade your management systems with advanced barcode scanning integration and SKU rationalization.",
@@ -28,7 +28,7 @@
     "link": "single-service"
   },
   {
-    "image": "/images/v3/Ai.jpg",
+    "image": "/images/v3/Ai.avif",
     "icon": "/images/v3/bot.png",
     "title": "AI Optimization",
     "description": "We leverage Artificial Intelligence to predict demand, optimize inventory flow, and remove bottlenecks in your supply chain",
@@ -42,10 +42,25 @@
     "link": "single-service"
   },
   {
-    "image": "/images/v3/digital.jpeg",
+    "image": "/images/v3/digital.avif",
     "icon": "/images/v3/icon3.png",
     "title": "Digital Commerce",
     "description": "Full-stack E-commerce development and Amazon launch strategies.",
+    "link": "single-service"
+  },
+
+  {
+    "image": "/images/v3/shopify.png",
+    "icon": "/images/v3/icon3.png",
+    "title": "Shopify Store Development",
+    "description": "Custom  stores designed for performance, scalability, and conversions growth.",
+    "link": "single-service"
+  },
+  {
+    "image": "/images/v3/amazon.png",
+    "icon": "/images/v3/icon3.png",
+    "title": "Amazon Store Management",
+    "description": "Professional  store setup, optimization, and sales growth solutions today.",
     "link": "single-service"
   }
 ]

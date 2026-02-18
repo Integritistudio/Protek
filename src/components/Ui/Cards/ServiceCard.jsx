@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const ServiceCard = ({ service, className }) => {
+  const detailsLink = service.link || "/single-service";
+
   return (
     <div className={className}>
       <div className="tekup-iconbox-wrap3 bg-white">
@@ -15,7 +17,7 @@ const ServiceCard = ({ service, className }) => {
           />
         </div>
         <div className="tekup-iconbox-data3">
-          <Link href="/single-service">
+          <Link href={detailsLink}>
             <h5>{service.title}</h5>
           </Link>
           <p>{service.description}</p>

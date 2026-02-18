@@ -1,4 +1,5 @@
 import AboutSection from "~/components/Section/AboutUs/AboutSection";
+import AboutSection2 from "~/components/Section/AboutUs/AboutSection2";
 import FactSection from "~/components/Section/Common/Fact/FactSection";
 import PageHeader from "~/components/Section/Common/PageHeader";
 import ContentSection from "~/components/Section/AboutUs/ContentSection";
@@ -20,8 +21,8 @@ const Aboutpage = () => {
       <PageHeader title="About Us" />
       <AboutSection />
       <ContentSection />
-      {/* <ContentSection2 /> */}
-      <FactSection />
+      <AboutSection2 />
+      {/* <FactSection /> */}
       <ListSection />
       {/* <TeamSection/> */}
       {/* <FeatureListSection /> */}

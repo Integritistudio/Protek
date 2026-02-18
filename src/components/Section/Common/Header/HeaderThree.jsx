@@ -127,25 +127,6 @@ const HeaderThree = () => {
   }, [isActive]);
   return (
     <header className={`site-header tekup-header-section ${scrollClassName}`} >
-      <div className="bg-light1">
-        <div className="container-fuild">
-          <div className="tekup-header-top border_bottom">
-            <div className="tekup-header-info-wrap">
-              <div className="tekup-header-info dark-color">
-                <ul>
-                  {/* <li><i className="ri-map-pin-2-fill"></i>2774 Oak Drive, Plattsburgh, New York</li> */}
-                  <li><Link href="tel:+19053300671"><i className="ri-phone-fill"></i>905-330-0671</Link></li>
-                </ul>
-              </div>
-              <div className="tekup-header-info dark-color">
-                <ul>
-                  <li><i className="ri-time-fill"></i>Office Hours: 8:00 AM – 10:00 PM</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="tekup-header-bottom bg-light1">
         <div className="container-fuild">
           <nav className="navbar site-navbar">
@@ -177,11 +158,30 @@ const HeaderThree = () => {
                   <li className="nav-item nav-item-has-children">
                     <Link href="/" className="nav-link-item drop-trigger">Home</Link>
                   </li>
-                  <li className="nav-item">
-                    <Link href="about-us" className="nav-link-item">About Us</Link>
+                  <li className="nav-item nav-item-has-children services-dropdown-menu">
+                    <Link href="/service" className="nav-link-item drop-trigger">
+                      Our Services <i className="ri-arrow-down-s-line"></i>
+                    </Link>
+                    <ul className="sub-menu" id="submenu-services-header-three">
+                      <li className="sub-menu--item">
+                        <Link href="/service/data-center-telecom">
+                          <span className="menu-item-text">Data Center & Telecom</span>
+                        </Link>
+                      </li>
+                      <li className="sub-menu--item">
+                        <Link href="/service/logistics-supply-chain-ai-powered">
+                          <span className="menu-item-text">Logistics & Supply Chain (AI-Powered)</span>
+                        </Link>
+                      </li>
+                      <li className="sub-menu--item">
+                        <Link href="/service/beauty-ecommerce-incubation">
+                          <span className="menu-item-text">Beauty & E-Commerce Incubation</span>
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li className="nav-item">
-                    <Link href="service" className="nav-link-item">Our Services</Link>
+                    <Link href="/about-us" className="nav-link-item">About Us</Link>
                   </li>
                   {/* <li className="nav-item nav-item-has-children">
                     <Link href="#" className="nav-link-item drop-trigger">Blog <i className="ri-arrow-down-s-line"></i></Link>
@@ -204,7 +204,7 @@ const HeaderThree = () => {
                     </ul>
                   </li> */}
                   <li className="nav-item">
-                    <Link href="contact-us" className="nav-link-item">Contact Us</Link>
+                    <Link href="/contact-us" className="nav-link-item">Contact Us</Link>
                   </li>
                 </ul>
               </nav>
@@ -212,7 +212,7 @@ const HeaderThree = () => {
 
             <div className="header-btn header-btn-l1 ms-auto  d-lg-flex">
               <div className="tekup-header-icon">
-                <Link className="tekup-default-btn tekup-header-btn" href="contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                <Link className="tekup-default-btn tekup-header-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
               </div>
             </div>
             <div className="mobile-menu-trigger" onClick={menuTriggerClickHandler}>

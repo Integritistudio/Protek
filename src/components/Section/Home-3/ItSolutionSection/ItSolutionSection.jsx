@@ -31,7 +31,10 @@ const ItSolutionSection = () => {
                 to keep your infrastructure stable and reliable.
               </p>
               <div className="tekup-extra-mt">
-                <Link className="tekup-default-btn home3-it-solution-btn" href="service">
+                <Link
+                  className="tekup-default-btn home3-it-solution-btn"
+                  href="/service/data-center-telecom"
+                >
                   View Data Center Services <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </div>
