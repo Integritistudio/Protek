@@ -7,7 +7,7 @@ const AboutSection = () => {
         <div className="row">
           <div className="col-xl-6 col-lg-6">
             <div className="tekup-thumb">
-              <img src="/images/v1/thumb1.webp" alt="" />
+              <img src="/images/v1/Infrastructure.jpeg" alt="" />
             </div>
           </div>
           <div className="col-xl-5 offset-xl-1 col-lg-6 d-flex align-items-center">

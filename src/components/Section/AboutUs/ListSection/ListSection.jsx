@@ -6,7 +6,7 @@ const ListSection = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="tekup-thumb mr-30">
-              <img src="/images/v3/thumb2.webp" alt="" />
+              <img src="/images/v1/Integrated.jpeg" alt="" />
             </div>
           </div>
           <div className="col-lg-6 d-flex align-items-center">
