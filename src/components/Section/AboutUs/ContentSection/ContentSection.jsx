@@ -47,7 +47,7 @@ const ContentSection = () => {
               <div className="tekup-extra-mt">
                 <Link
                   className="tekup-default-btn home3-logistics-btn"
-                  href="/service/logistics-supply-chain-ai-powered"
+                  href="service"
                 >
                   Our Service <i className="ri-arrow-right-up-line"></i>
                 </Link>

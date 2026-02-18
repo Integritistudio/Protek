@@ -54,7 +54,7 @@ const AboutSection = () => {
                 allows businesses to scale without limits.
               </p> */}
               <div className="tekup-extra-mt">
-                <Link className="tekup-default-btn" href="services">
+                <Link className="tekup-default-btn" href="service">
                   Our Services <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </div>
