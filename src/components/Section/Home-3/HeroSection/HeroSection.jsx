@@ -42,9 +42,6 @@ const HeroSection = () => {
           <div className="col-lg-5">
             <div className="tekup-hero-thumb">
               <img src="/images/hero/hero-img.avif" alt="" />
-              <div className="tekup-client-rating">
-                <img src="/images/v3/rating.png" alt="" />
-              </div>
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@ const ListSection = () => {
                 </p>
               </div>
               <div className="tekup-extra-mt">
-                <Link className="tekup-default-btn" href="contact-us">
+                <Link className="tekup-default-btn" href="/contact-us">
                   Get in touch <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </div>

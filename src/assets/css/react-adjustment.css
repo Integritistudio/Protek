@@ -958,6 +958,12 @@ body.disable-scroll {
   display: none !important;
 }
 
+/* Hide footer social icons globally */
+footer .tekup-social-icon-box,
+footer .tekup-social-icon {
+  display: none !important;
+}
+
 /* Services dropdown menu styling */
 .services-dropdown-menu > .sub-menu {
   min-width: 320px;
@@ -1073,6 +1079,27 @@ body.disable-scroll {
 
   .home3-ecosystem-title h2 {
     max-width: 680px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home3-ecosystem-title h2 {
+    font-size: 40px;
+    line-height: 1.15;
+  }
+}
+
+@media (max-width: 575px) {
+  .home3-ecosystem-title h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
+  .home3-ecosystem-title .forced-title-line {
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 }
 

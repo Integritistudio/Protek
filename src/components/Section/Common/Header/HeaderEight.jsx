@@ -398,7 +398,7 @@ const HeaderEight = () => {
                 <div className="tekup-header-search" onClick={() => setSearchBar(true)}>
                   <i className="ri-search-line"></i>
                 </div>
-                <Link className="tekup-default-btn tekup-header-btn" href="contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                <Link className="tekup-default-btn tekup-header-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
               </div>
             </div>
             <div className="mobile-menu-trigger" onClick={menuTriggerClickHandler}>

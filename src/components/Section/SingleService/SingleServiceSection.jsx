@@ -43,7 +43,7 @@ const SingleServiceSection = () => {
                   <img src="/images/service/icon.png" alt=""/>
                   <h3>Don't hesitate to contact us</h3>
                   <p>At our IT solution company, we are committed to exceptional</p>
-                  <Link className="tekup-default-btn tekup-white-btn" href="contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                  <Link className="tekup-default-btn tekup-white-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
                 </div>
               </div>
             </div>

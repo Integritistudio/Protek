@@ -399,7 +399,7 @@ const HeaderSix = () => {
 
             <div className="header-btn header-btn-l1 ms-auto ">
               <div className="tekup-header-icon">
-                <Link className="tekup-default-btn tekup-header-btn" href="contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
+                <Link className="tekup-default-btn tekup-header-btn" href="/contact-us">Get in Touch <i className="ri-arrow-right-up-line"></i></Link>
               </div>
             </div>
             {/* <!-- mobile menu trigger --> */}

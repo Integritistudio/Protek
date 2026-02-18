@@ -49,7 +49,7 @@ const ContentSection = () => {
                   className="tekup-default-btn home3-logistics-btn"
                   href="/service/logistics-supply-chain-ai-powered"
                 >
-                  View Logistics Solutions <i className="ri-arrow-right-up-line"></i>
+                  Our Service <i className="ri-arrow-right-up-line"></i>
                 </Link>
               </div>
             </div>
