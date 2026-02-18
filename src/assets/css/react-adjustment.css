@@ -623,6 +623,10 @@ body.disable-scroll {
 }
 
 /* About us service list responsive tuning */
+.service-anchor-target {
+  scroll-margin-top: 120px;
+}
+
 @media (max-width: 1024px) {
   .service-list-section1 .tekup-default-content h2 {
     font-size: 44px;
@@ -946,6 +950,129 @@ body.disable-scroll {
   .tekup-hero-section3 .home3-consult-btn i {
     margin-left: 6px;
     font-size: 16px;
+  }
+}
+
+/* Hide top office-time/phone strip globally */
+.site-header .tekup-header-top {
+  display: none !important;
+}
+
+/* Services dropdown menu styling */
+.services-dropdown-menu > .sub-menu {
+  min-width: 320px;
+  padding: 14px 0;
+}
+
+.services-dropdown-menu > .sub-menu .sub-menu--item > a {
+  display: block;
+  padding: 8px 26px;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+}
+
+.services-dropdown-menu > .sub-menu .sub-menu--item {
+  border-bottom: none !important;
+}
+
+.services-dropdown-menu > .sub-menu .sub-menu--item > a:hover,
+.services-dropdown-menu > .sub-menu .sub-menu--item > a:focus {
+  border-bottom: 0 !important;
+  text-decoration: none !important;
+}
+
+.services-dropdown-menu > .sub-menu .menu-item-text {
+  color: #916935 !important;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: color 0.25s ease, text-decoration-color 0.25s ease;
+}
+
+.services-dropdown-menu > .sub-menu .sub-menu--item > a:hover .menu-item-text,
+.services-dropdown-menu > .sub-menu .sub-menu--item > a:focus .menu-item-text {
+  color: #6f4f28 !important;
+  text-decoration-color: #6f4f28;
+}
+
+.services-dropdown-menu > .sub-menu .sub-menu--item > a .menu-item-text::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Service highlights section (service pages only) */
+.service-page-ecosystem-title h2 {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-page-pillars-title-wrap .tekup-section-title h2 {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home3-ecosystem-title h2 {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home3-ecosystem-title .forced-title-line,
+.service-page-pillars-title-wrap .forced-title-line {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.service-highlights-section .service-highlights-eyebrow {
+  color: #916935;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.service-highlights-section .tekup-section-title h2 {
+  margin-bottom: 18px;
+}
+
+.service-highlights-section .service-highlights-card {
+  height: 100%;
+  border: 1px solid #916935;
+  background-color: #916935;
+}
+
+.service-highlights-section .service-highlights-card h4 {
+  color: #ffffff;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.service-highlights-section .service-highlights-card p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.service-highlights-section .row > div:nth-child(even) .service-highlights-card {
+  background-color: #ffffff;
+}
+
+.service-highlights-section .row > div:nth-child(even) .service-highlights-card h4,
+.service-highlights-section .row > div:nth-child(even) .service-highlights-card p {
+  color: #916935;
+}
+
+@media (max-width: 1024px) {
+  .service-page-ecosystem-title h2 {
+    max-width: 680px;
+  }
+
+  .service-page-pillars-title-wrap .tekup-section-title h2 {
+    max-width: 620px;
+  }
+
+  .home3-ecosystem-title h2 {
+    max-width: 680px;
   }
 }
 

@@ -1,18 +1,21 @@
 [
   {
     "id": 1,
+    "link": "/service/data-center-telecom",
     "title": "Data Center & Telecom",
     "icon": "/images/v2/icon3.png",
     "description": "Precision, Reliability, and End-to-End Execution."
   },
   {
     "id": 2,
+    "link": "/service/logistics-supply-chain-ai-powered",
     "title": "Logistics & Supply Chain (AI-Powered)",
     "icon": "/images/v2/icon4.png",
     "description": "Modernizing the warehouse through Intelligence."
   },
   {
     "id": 3,
+    "link": "/service/beauty-ecommerce-incubation",
     "title": "Beauty & E-Commerce Incubation",
     "icon": "/images/v2/icon7.png",
     "description": "Taking products from the lab to the digital shelf."

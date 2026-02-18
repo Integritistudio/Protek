@@ -1,0 +1,56 @@
+{
+  "data-center-telecom": [
+    {
+      "heading": "Infrastructure Design & Build",
+      "description": "Expert data center layout design, equipment provisioning, and commissioning."
+    },
+    {
+      "heading": "Installation & Maintenance",
+      "description": "Full-scale installation of core processing equipment and specialized data center \"clean-up\" maintenance to ensure peak thermal and operational efficiency."
+    },
+    {
+      "heading": "Connectivity Solutions",
+      "description": "Fiber optic backhaul connectivity and high-speed network architecture."
+    },
+    {
+      "heading": "Hardware & Peripherals",
+      "description": "Core gear includes routers, switches, and high-performance servers."
+    }
+  ],
+  "logistics-supply-chain-ai-powered": [
+    {
+      "heading": "Hardware Integration",
+      "description": "High-speed network setups for massive facilities and industrial-grade barcode scanning ecosystems."
+    },
+    {
+      "heading": "Process Optimization",
+      "description": "AI-driven SKU rationalization to ensure your inventory moves faster and smarter."
+    },
+    {
+      "heading": "Structural Empowerment",
+      "description": "We upgrade legacy systems into intelligent, automated hubs, allowing logistics providers to compete at a global scale."
+    },
+    {
+      "heading": "Smart Warehousing",
+      "description": "Upgrade your management systems with advanced barcode scanning integration and SKU rationalization."
+    }
+  ],
+  "beauty-ecommerce-incubation": [
+    {
+      "heading": "Product Development",
+      "description": "Expert consultation in formula development and brand creation for the beauty industry."
+    },
+    {
+      "heading": "Contract Manufacturing",
+      "description": "Streamlined manufacturing partnerships to bring your vision to life."
+    },
+    {
+      "heading": "Digital Commerce",
+      "description": "Full-stack E-commerce development and Amazon launch strategies."
+    },
+    {
+      "heading": "Data-Driven Growth",
+      "description": "We utilize Nielsen and POS data combined with AI analytics to optimize sales performance and market positioning."
+    }
+  ]
+}

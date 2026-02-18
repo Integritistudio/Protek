@@ -9,8 +9,12 @@ const ServiceSection = () => {
     <div className="section bg-light1 tekup-section-padding2">
       <div className="container">
 
-        <div className="tekup-section-title center">
-          <h2>We deal with the aspects of professional IT services</h2>
+        <div className="tekup-section-title center service-page-ecosystem-title">
+          <h2>
+            Core Services Pillars of
+            <br />
+            Protek Ecosystem
+          </h2>
         </div>
 
         {/* center align row */}

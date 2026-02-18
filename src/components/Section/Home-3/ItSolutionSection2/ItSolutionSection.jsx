@@ -28,7 +28,10 @@ const ItSolutionSection = () => {
                 to optimize sales performance and strengthen market positioning.
               </p>
               <div className="tekup-extra-mt">
-                <Link className="tekup-default-btn home3-beauty-btn" href="service">
+                <Link
+                  className="tekup-default-btn home3-beauty-btn"
+                  href="/service/beauty-ecommerce-incubation"
+                >
                   Launch Your Beauty Brand{" "}
                   <i className="ri-arrow-right-up-line"></i>
                 </Link>
