@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className="tekup-hero-section3 bg-light1">
       <div className="container">
-        <div className="row gap-5">
+        <div className="row gap-2">
           <div className="col-lg-6 d-flex align-items-center">
             <div className="tekup-hero-content dark-color">
               {/* <h5>We provide professional IT services</h5> */}

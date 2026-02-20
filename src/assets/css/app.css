@@ -3756,12 +3756,12 @@ h1.post__title {
 }
 
 .tekup-hero-section3 {
-  padding-top: 170px;
+  padding-top: 130px;
 }
 
 @media (max-width: 479px) {
   .tekup-hero-section3 {
-    padding-top: 150px;
+    padding-top: 120px;
   }
 }
 

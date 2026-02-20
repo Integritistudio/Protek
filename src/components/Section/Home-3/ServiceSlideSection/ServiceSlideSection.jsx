@@ -10,11 +10,11 @@ const WeDealSection = () => {
     arrows: false,
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 1000,
     responsive: [
       {
         breakpoint: 1397,
@@ -37,7 +37,7 @@ const WeDealSection = () => {
     ],
   };
   return (
-    <div className="section tekup-section-padding">
+    <div className="section tekup-section-padding service-slide-section-home">
       <div className="container">
         <div className="tekup-section-title center home3-ecosystem-title">
           {/* <h2>We deal with the aspects of professional IT services</h2> */}

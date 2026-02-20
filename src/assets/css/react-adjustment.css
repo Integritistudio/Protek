@@ -1020,10 +1020,24 @@ footer .tekup-social-icon {
   margin-right: auto;
 }
 
-.home3-ecosystem-title h2 {
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
+.service-page-pillars-title-wrap .service-highlights-section {
+  padding-top: 20px !important;
+  /* Fix extreme gap between slider and pillars */
+}
+
+.service-page-pillars-title-wrap .service-highlights-section {
+  padding-top: 10px !important;
+  /* Fix extreme gap between slider and pillars */
+}
+
+/* Tighten the section above it as well */
+.home3-ecosystem-title+.slick-slider+.slick-dots+div,
+.home3-ecosystem-title {
+  margin-bottom: 30px !important;
+}
+
+.service-slide-section-home {
+  padding-bottom: 40px !important;
 }
 
 .home3-ecosystem-title .forced-title-line,
@@ -1311,5 +1325,238 @@ input[type="button"]:focus,
   .hero-gallery-item img {
     width: 130px;
     height: 100px;
+  }
+}
+
+/* ============================================================
+   LOGO MARQUEE SECTION
+   ============================================================ */
+
+/* ---------- Keyframe ---------- */
+@keyframes logoScrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ---------- Section wrapper ---------- */
+.logo-marquee-section {
+  background-color: #f8f7f4;
+  /* matches bg-light1 */
+  padding: 56px 0 48px;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* ---------- Optional centered label ---------- */
+.logo-marquee-label {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo-marquee-label span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+/* ---------- Viewport (clip overflow) ---------- */
+.logo-marquee-viewport {
+  overflow: hidden;
+  width: 100%;
+  /* Fade edges for a polished feel */
+  -webkit-mask-image: linear-gradient(to right,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%);
+  mask-image: linear-gradient(to right,
+      transparent 0%,
+      #000 8%,
+      #000 92%,
+      transparent 100%);
+}
+
+/* ---------- Scrolling track (original + duplicate = 2× width) ---------- */
+.logo-marquee-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 80px;
+  /* Precise, even spacing between all logos */
+  animation: logoScrollLeft 28s linear infinite;
+  will-change: transform;
+}
+
+/* Pause on hover over the entire section */
+.logo-marquee-section:hover .logo-marquee-track {
+  animation-play-state: paused;
+}
+
+/* ---------- Individual logo card ---------- */
+.logo-marquee-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /* padding removed, gap handled by track */
+}
+
+.logo-marquee-item img {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  filter: none;
+  opacity: 1;
+  transition: transform 0.25s ease;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+/* No more scaling on hover to prevent cutting and follow user request */
+.logo-marquee-item:hover img {
+  transform: none;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .logo-marquee-section {
+    padding: 44px 0 36px;
+  }
+
+  .logo-marquee-item {
+    padding: 0;
+  }
+
+  .logo-marquee-item img {
+    height: 42px;
+    max-width: 110px;
+  }
+
+  .logo-marquee-track {
+    gap: 50px;
+    animation-duration: 22s;
+  }
+}
+
+@media (max-width: 575px) {
+  .logo-marquee-section {
+    padding: 20px 0 20px !important;
+  }
+
+  .logo-marquee-label {
+    margin-bottom: 12px !important;
+  }
+
+  .logo-marquee-item {
+    padding: 20px !important;
+  }
+
+  .logo-marquee-item img {
+    height: 32px;
+    max-width: 80px;
+  }
+
+  .logo-marquee-track {
+    gap: 15px !important;
+    animation-duration: 18s;
+  }
+}
+
+/* ============================================================
+   BREADCRUMB SLIDER (PageHeader)
+   ============================================================ */
+.tekup-breadcrumb-slider-wrap {
+  position: relative;
+  overflow: hidden;
+  margin-top: 120px;
+  /* Move margin from child slides to wrapper */
+}
+
+@media (max-width: 991px) {
+  .tekup-breadcrumb-slider-wrap {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 479px) {
+  .tekup-breadcrumb-slider-wrap {
+    margin-top: 75px;
+  }
+}
+
+.tekup-breadcrumb-slider .tekup-breadcrumb {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 420px !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  /* Forces visible area to match slider container */
+}
+
+/* Custom Arrows for Breadcrumb Slider */
+.tekup-breadcrumb-slider .slick-prev,
+.tekup-breadcrumb-slider .slick-next {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 10;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.tekup-breadcrumb-slider .slick-prev {
+  left: 40px !important;
+}
+
+.tekup-breadcrumb-slider .slick-next {
+  right: 40px !important;
+}
+
+.tekup-breadcrumb-slider .slick-prev:before,
+.tekup-breadcrumb-slider .slick-next:before {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-size: 18px !important;
+}
+
+.tekup-breadcrumb-slider .slick-prev:hover,
+.tekup-breadcrumb-slider .slick-next:hover {
+  background-color: #916935 !important;
+  border-color: #916935 !important;
+}
+
+/* Hide arrows on smaller mobile screens for focus on content */
+@media (max-width: 767px) {
+
+  .tekup-breadcrumb-slider .slick-prev,
+  .tekup-breadcrumb-slider .slick-next {
+    display: none !important;
+  }
+
+  .tekup-breadcrumb-slider .tekup-breadcrumb {
+    min-height: 240px !important;
   }
 }
