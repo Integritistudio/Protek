@@ -40,8 +40,75 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="tekup-hero-thumb">
-              <img src="/images/hero/hero-img.avif" alt="" />
+            <div className="hero-animated-gallery">
+              {/* Track 1 — scrolls UP at 15s */}
+              <div className="hero-gallery-track animate-up" style={{ animationDuration: "15s" }}>
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Infrastructure.jpeg" alt="Infrastructure" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/Ai.avif" alt="AI Solutions" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/smartwarehouse.avif" alt="Smart Warehouse" />
+                </div>
+                {/* ↓ Duplicate set for seamless loop */}
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Infrastructure.jpeg" alt="Infrastructure" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/Ai.avif" alt="AI Solutions" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/smartwarehouse.avif" alt="Smart Warehouse" />
+                </div>
+              </div>
+
+              {/* Track 2 — scrolls DOWN at 18s */}
+              <div className="hero-gallery-track animate-down" style={{ animationDuration: "18s" }}>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/connectivity.avif" alt="Connectivity" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Industrial.jpeg" alt="Industrial" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/hardware.avif" alt="Hardware" />
+                </div>
+                {/* ↓ Duplicate set for seamless loop */}
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/connectivity.avif" alt="Connectivity" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Industrial.jpeg" alt="Industrial" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/hardware.avif" alt="Hardware" />
+                </div>
+              </div>
+
+              {/* Track 3 — scrolls UP at 20s */}
+              <div className="hero-gallery-track animate-up" style={{ animationDuration: "20s" }}>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/digital.avif" alt="Digital" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Integrated.jpeg" alt="Integrated Systems" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/productdevelopment.avif" alt="Product Development" />
+                </div>
+                {/* ↓ Duplicate set for seamless loop */}
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/digital.avif" alt="Digital" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v1/Integrated.jpeg" alt="Integrated Systems" />
+                </div>
+                <div className="hero-gallery-item">
+                  <img src="/images/v3/productdevelopment.avif" alt="Product Development" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -111,7 +111,8 @@
 .home-two-testimonial .tekup-t-two-column-slider-wrap {
   border: none !important;
 }
-.tekup-t-two-column-slider-item{
+
+.tekup-t-two-column-slider-item {
   border: 1px solid #e7e7e8;
   background-color: white;
 }
@@ -175,7 +176,7 @@
   margin-right: auto;
 }
 
-.tekup-service-thumb > img {
+.tekup-service-thumb>img {
   width: 100% !important;
   aspect-ratio: 612 / 760 !important;
   object-fit: cover !important;
@@ -615,6 +616,7 @@ body.disable-scroll {
   padding-right: 3px !important;
   padding-left: 3px !important;
 }
+
 /* Team Card Extra Padding CSS End*/
 
 /* For play btn home 4 */
@@ -633,7 +635,7 @@ body.disable-scroll {
     line-height: 1.18;
   }
 
-  .service-list-section1 .tekup-default-content > p {
+  .service-list-section1 .tekup-default-content>p {
     font-size: 18px;
     margin-bottom: 18px;
   }
@@ -675,7 +677,7 @@ body.disable-scroll {
     margin-bottom: 12px;
   }
 
-  .service-list-section1 .tekup-default-content > p {
+  .service-list-section1 .tekup-default-content>p {
     font-size: 16px;
     margin-bottom: 16px;
   }
@@ -705,19 +707,15 @@ body.disable-scroll {
 
 /* Home-3 service card hover color override */
 .service-card-three .tekup-service-thumb:before {
-  background: linear-gradient(
-    180deg,
-    rgba(145, 105, 53, 0.08) 0%,
-    rgba(145, 105, 53, 0.55) 100%
-  ) !important;
+  background: linear-gradient(180deg,
+      rgba(145, 105, 53, 0.08) 0%,
+      rgba(145, 105, 53, 0.55) 100%) !important;
 }
 
 .service-card-three .tekup-service-thumb:after {
-  background: linear-gradient(
-    180deg,
-    rgba(145, 105, 53, 0.15) 0%,
-    rgba(145, 105, 53, 0.88) 100%
-  ) !important;
+  background: linear-gradient(180deg,
+      rgba(145, 105, 53, 0.15) 0%,
+      rgba(145, 105, 53, 0.88) 100%) !important;
 }
 
 .service-card-three .service-card-three-image {
@@ -746,7 +744,8 @@ body.disable-scroll {
 /* Service page CTA: light overlay only in this section */
 .service-page-cta-no-overlay::before {
   display: block !important;
-  background-color: rgba(145, 104, 53, 0.24) !important; /* #916835 light */
+  background-color: rgba(145, 104, 53, 0.24) !important;
+  /* #916835 light */
 }
 
 .service-page-cta-no-overlay .tekup-default-btn.tekup-white-btn,
@@ -930,6 +929,7 @@ body.disable-scroll {
 }
 
 @media (max-width: 360px) {
+
   .home3-it-solution-section .home3-it-solution-btn,
   .home3-logistics-section .home3-logistics-btn,
   .home3-beauty-section .home3-beauty-btn,
@@ -965,29 +965,29 @@ footer .tekup-social-icon {
 }
 
 /* Services dropdown menu styling */
-.services-dropdown-menu > .sub-menu {
+.services-dropdown-menu>.sub-menu {
   min-width: 320px;
   padding: 14px 0;
 }
 
-.services-dropdown-menu > .sub-menu .sub-menu--item > a {
+.services-dropdown-menu>.sub-menu .sub-menu--item>a {
   display: block;
   padding: 8px 26px;
   border-bottom: 0 !important;
   text-decoration: none !important;
 }
 
-.services-dropdown-menu > .sub-menu .sub-menu--item {
+.services-dropdown-menu>.sub-menu .sub-menu--item {
   border-bottom: none !important;
 }
 
-.services-dropdown-menu > .sub-menu .sub-menu--item > a:hover,
-.services-dropdown-menu > .sub-menu .sub-menu--item > a:focus {
+.services-dropdown-menu>.sub-menu .sub-menu--item>a:hover,
+.services-dropdown-menu>.sub-menu .sub-menu--item>a:focus {
   border-bottom: 0 !important;
   text-decoration: none !important;
 }
 
-.services-dropdown-menu > .sub-menu .menu-item-text {
+.services-dropdown-menu>.sub-menu .menu-item-text {
   color: #916935 !important;
   font-weight: 500;
   text-decoration: underline;
@@ -996,13 +996,13 @@ footer .tekup-social-icon {
   transition: color 0.25s ease, text-decoration-color 0.25s ease;
 }
 
-.services-dropdown-menu > .sub-menu .sub-menu--item > a:hover .menu-item-text,
-.services-dropdown-menu > .sub-menu .sub-menu--item > a:focus .menu-item-text {
+.services-dropdown-menu>.sub-menu .sub-menu--item>a:hover .menu-item-text,
+.services-dropdown-menu>.sub-menu .sub-menu--item>a:focus .menu-item-text {
   color: #6f4f28 !important;
   text-decoration-color: #6f4f28;
 }
 
-.services-dropdown-menu > .sub-menu .sub-menu--item > a .menu-item-text::after {
+.services-dropdown-menu>.sub-menu .sub-menu--item>a .menu-item-text::after {
   content: none !important;
   display: none !important;
 }
@@ -1059,12 +1059,12 @@ footer .tekup-social-icon {
   color: #ffffff;
 }
 
-.service-highlights-section .row > div:nth-child(even) .service-highlights-card {
+.service-highlights-section .row>div:nth-child(even) .service-highlights-card {
   background-color: #ffffff;
 }
 
-.service-highlights-section .row > div:nth-child(even) .service-highlights-card h4,
-.service-highlights-section .row > div:nth-child(even) .service-highlights-card p {
+.service-highlights-section .row>div:nth-child(even) .service-highlights-card h4,
+.service-highlights-section .row>div:nth-child(even) .service-highlights-card p {
   color: #916935;
 }
 
@@ -1136,4 +1136,180 @@ input[type="button"]:focus,
   background-color: #6f4f28 !important;
   border-color: #6f4f28 !important;
   color: #ffffff !important;
+}
+
+/* ============================================================
+   HERO ANIMATED GALLERY  (tekup-hero-section3 right column)
+   ============================================================ */
+
+/* --- Keyframes --- */
+@keyframes heroScrollUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes heroScrollDown {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* --- Gallery container --- */
+.hero-animated-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  height: 100%;
+  min-height: 460px;
+  max-height: 480px;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+}
+
+/* --- Each vertical track --- */
+.hero-gallery-track {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* animate-up  → scrolls upward */
+.hero-gallery-track.animate-up {
+  animation: heroScrollUp linear infinite;
+}
+
+/* animate-down → scrolls downward */
+.hero-gallery-track.animate-down {
+  animation: heroScrollDown linear infinite;
+}
+
+/* Pause on hover for accessibility / polish */
+.hero-animated-gallery:hover .hero-gallery-track {
+  animation-play-state: paused;
+}
+
+/* --- Individual image card --- */
+.hero-gallery-item {
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.hero-gallery-item img {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.hero-gallery-item:hover img {
+  transform: scale(1.04);
+}
+
+/* --- Stagger: offset each column for a natural staggered look --- */
+.hero-gallery-track:nth-child(2) {
+  margin-top: 40px;
+}
+
+.hero-gallery-track:nth-child(3) {
+  margin-top: -30px;
+}
+
+/* --- Responsive: tablet --- */
+@media (max-width: 1199px) {
+  .hero-animated-gallery {
+    min-height: 400px;
+    max-height: 440px;
+    gap: 10px;
+  }
+
+  .hero-gallery-item img {
+    height: 130px;
+  }
+}
+
+/* --- Horizontal marquee keyframe (mobile only) --- */
+@keyframes heroScrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* --- Responsive: mobile – horizontal animated marquee --- */
+@media (max-width: 991px) {
+  .hero-animated-gallery {
+    display: block;
+    grid-template-columns: unset;
+    min-height: unset;
+    max-height: unset;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-top: 36px;
+  }
+
+  /* Hide tracks 2 and 3 — only the first track runs as a horizontal strip */
+  .hero-gallery-track:nth-child(2),
+  .hero-gallery-track:nth-child(3) {
+    display: none;
+  }
+
+  /* First track: horizontal marquee */
+  .hero-gallery-track:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 12px;
+    width: max-content;
+    margin-top: 0;
+    animation: heroScrollLeft 10s linear infinite;
+    animation-duration: 10s;
+    /* override inline duration */
+  }
+
+  /* Fixed-width cards so exactly ~3 are visible */
+  .hero-gallery-item {
+    flex-shrink: 0;
+    width: 160px;
+    border-radius: 12px;
+  }
+
+  .hero-gallery-item img {
+    width: 160px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-gallery-track:nth-child(1) {
+    gap: 10px;
+  }
+
+  .hero-gallery-item {
+    width: 130px;
+  }
+
+  .hero-gallery-item img {
+    width: 130px;
+    height: 100px;
+  }
 }
